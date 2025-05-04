@@ -1,0 +1,53 @@
+.cal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+input {
+    color: #555;
+}
+
+#imageInput {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#imageInput:hover {
+    border-color: #ddd;
+}
+
+#responseText {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+
+button {
+    background-color: #e83e8c;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #6f42c1;
+}
